@@ -1,0 +1,406 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    height: 800px;
+    background-image: url(https://www.ignitiv.com/wp-content/uploads/2020/09/slide-s.png),  url(https://www.ignitiv.com/wp-content/uploads/2020/09/slide-y.png), url(https://www.ignitiv.com/wp-content/uploads/2021/06/Digital-Transformation.jpg);
+    background-position: -180px 150px, 1200px 150px, center;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    
+    background-size: 500px, 500px, cover;
+    filter: grayscale(0%), grayscale(0%),grayscale(100%);
+}
+
+
+
+
+.headeing {
+
+
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    font-size: 30px;
+    color: white;
+
+}
+
+.headeing button {
+    position: absolute;
+    left: 40%;
+    padding: 13px 42px;
+    color: white;
+}
+
+.headeing a:hover {
+    background-color: beige;
+    color: black;
+
+}
+
+.headeing a {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    left: 40%;
+    padding: 13px 28px;
+    border: 1px solid black;
+    border-radius: 7px;
+    border-color: white;
+}
+
+
+.section1 {
+    display: flex;
+}
+
+.logo {
+    padding: 30px 37px 31px 53px;
+    font-size: 40px;
+    color: white;
+}
+
+.nav {
+
+    padding: 16px 58px;
+
+    width: 100%;
+
+}
+
+.dropdown {
+    float: right;
+    color: #f2f2f2;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 20px;
+
+}
+
+/* ************************************Hover Effect on Navbar*********************************** */
+
+
+.demmo{
+    display: flex;
+    margin-left: 634px;
+
+}
+.dropbtn{
+   
+
+    padding: 16px;
+    font-size: 8px;
+    border: none;
+
+}
+
+.dropdown1 .dropdown2 .dropdown3 .dropdown4 .dropdown5 .dropdown6{
+    position: relative;
+  display: inline-block;
+  /* justify-content: space-between; */
+} 
+
+.dropdown1 a, .dropdown2 a, .dropdown3 a, .dropdown4 a, .dropdown5 a, .dropdown6 a{
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+   font-size: 17px;
+   
+} 
+
+.dropbtn{
+    display: flex;
+    justify-content: space-around;
+}
+.dropdown-content{
+    display: none;
+    font-size: 10px;
+    position: absolute;
+    background-color: black;
+    z-index: 1;
+    padding: 40px;
+}
+
+.dropdown-content a{
+    color: white;
+    text-decoration: none;
+    line-height: 2;
+    display: block;
+}
+
+.dropdown a:hover{
+    display: block;
+    text-decoration:underline;
+}
+
+/* .dropdown6:nth-child(1){
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    
+} */
+
+
+.dropdown1:hover .dropdown-content {display: block;}
+.dropdown2:hover .dropdown-content {display: block;}
+.dropdown3:hover .dropdown-content {display: block;}
+.dropdown4:hover .dropdown-content {display: block;}
+.dropdown5:hover .dropdown-content {display: block;}
+.dropdown6:hover .dropdown-content {display: block;}
+
+
+
+
+
+
+
+/* ****************************2nd section********************************* */
+
+
+
+
+
+.section-2{
+text-align: center;
+
+padding: 120px 120px;
+
+}
+
+.section-2 strong{
+font-size: 53px;
+}
+
+
+
+
+/* *******************************3rd section**************************************** */
+
+.threeDiv{
+
+    display: flex;
+}
+
+
+.section-3-div{
+    border: 1px solid black;
+    padding: 105px 26px 29px 24px;
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    bottom: 50%;
+}
+
+.section-3-div p{
+    margin-bottom: 71px;
+}
+
+
+
+.div-1{
+    background-color: rgb(94, 34, 186);
+}
+
+.div-2{
+    background-color: rgb(28, 28, 28);
+}
+
+.div-3{
+    background-color: rgb(3, 70, 187);
+    /* position: absolute; */
+    /* bottom: 20%; */
+}
+.divbutton{
+    text-decoration: none;
+
+    color: white;
+   
+  
+    padding: 13px 28px;
+    border: 1px solid black;
+    border-radius: 7px;
+    border-color: white;        
+}
+
+.hoverImg{
+    animation: bouncing 2.7s linear infinite;
+    width: 225px;
+   
+    left: 30px;
+
+    
+}
+
+.content{
+    position: relative;
+    bottom: 50%;
+    
+    
+}
+
+
+@keyframes bouncing{
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(300px);
+
+
+        
+        
+    }
+    75%{
+        transform: translateY(-100px);
+
+        
+
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+    
+/* ************************************************ section 4************************************** */
+
+
+
+.outerContainer{
+    width: 100%;
+    display: flex;
+   }
+   .colm1{
+    width: 100%;
+   }
+   .colm2{
+    width: 100%;
+    text-align: center;
+    background-color:  #f4f4f4;
+    padding: 81px 0px 34px 0px;
+ 
+
+   }
+  
+   .colm2 h2{
+    font-size: 30px;
+   
+   }
+    .line{
+        
+        display: flex;
+        padding-left: 25px;
+    }  
+    .innerPara{
+         margin: 1vh auto 0 auto;
+        padding: 0px 60px;
+        text-align: left;
+    }
+    .innerPara p{
+        line-height: 1.5;
+    }
+    
+    .inner-btn {
+        margin: 30px auto 0 25%;
+        padding: 15px 30px;
+        border: 1px solid black;
+        font-size: 15px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .inner-btn:hover{
+        color: white;
+        background-color: black;
+        transition: 0.4s ease;
+    }
+
+
+/* *****************************Red Container********************************** */
+
+
+.redcontainer{
+    display: flex;
+    background-color: red;
+    height: 400px;
+    /* justify-content: space-between; */
+    font-size: 25px;
+}
+
+.redcol{
+    width: 100%;
+    height: 100%;
+    padding: 0px 0px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    padding-top:80px ;
+    padding-right: 80px;
+}
+
+.redcontent{
+
+    border-right: 1px dotted rgb(250, 249, 249);
+
+}
+
+/* *****************************Footer ************************************* */
+
+.footerdiv{
+    background-image: url(https://www.ignitiv.com/wp-content/uploads/2020/08/Footer.jpg);
+    background-position: -180px 150px, 1200px 150px, center;
+}
+.contactdetail{
+    display: flex;
+    color:white ;
+    /* justify-content: space-evenly; */
+    margin: 0px 60px;
+    
+}
+
+.aboutignitiv{
+    padding: 68px 0px 46px 0px;
+
+}
+
+.aboutignitiv:nth-child(0){
+    font-weight: bold;
+}
+
+.quicklinks{
+    margin: 44px;
+
+}
+.quicklinks ul{
+    list-style: none;
+}
+
+.solutions{
+    display: flex;
+    /* margin: 44px; */
+
+}
+
+.solutions ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.solutions ul li{
+    list-style: none;
+    line-height: 35px;
+}
+
+.contact{
+    margin: 40px 30px;
+    
+}
+
+.contact i{
+    color: blue;
+    
+}

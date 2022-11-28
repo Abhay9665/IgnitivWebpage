@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/1c74e082c5.js" crossorigin="anonymous"></script>
+
+<style>
+
+
+
+.container {
+  padding: 16px;
+  /* width: 80%; */
+  background-image: url(https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=);
+ opacity: 2;
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+}
+
+form{
+  width: 100%;
+}
+
+input[type=text], input[type=password], input[type=number] {
+  width: 100%;
+  padding: 18px 51px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border: 1px solid black;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+}
+
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+
+
+a {
+  color: dodgerblue;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.icons{
+  position: absolute;
+    margin: 34px 0px 2px -58px;
+    font-size: 31px;
+}
+</style>
+</head>
+<body>
+    
+       
+    <form >
+        <div class="container">
+          <h1>Register</h1>
+          
+         
+          <label for="text"><b>User Name</b></label>
+          <i class="fa-solid fa-user icons"></i>
+          <input type="text" placeholder="Enter User" class="useremail" name="username">
+      
+          <label for="email"><b>Email</b></label>
+          <!-- <i class="fa-sharp fa-solid fa-envelope icons"></i> -->
+          <input type="text" placeholder="Enter Email" class="useremail" name="email">
+
+          <label for="Mobile"><b>Mobile</b></label>
+          <!-- <i class="fa-solid fa-user "></i> -->
+          <input type="number" placeholder="Enter Email" class="useremail" name="mobile">
+      
+          <label for="psw"><b>Password</b></label>
+          <!-- <i class="fa-sharp fa-solid fa-unlock-keyhole "></i> -->
+          <input type="password" placeholder="Enter Password"  class="userpass" name="pass">
+      
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <!-- <i class="fa-sharp fa-solid fa-unlock-keyhole"></i> -->
+          <input type="password" placeholder="Repeat Password" name="cpass" >
+
+          <label for="psw-repeat"><b>Date</b></label>
+          <input type="date" name="date" id="" value="date">
+
+          <label for="psw-repeat"><b>Male</b></label>
+          <input type="radio" name="gender" id="" value="male">
+
+          <label for="psw-repeat"><b>Female</b></label>
+          <input type="radio" name="gender" id="" value="female">
+
+          <select name="city" id="">
+            <option value="">Select City</option>
+            <option value="">Pune</option>
+            <option value="">Banglore</option>
+            <option value="">Delhi</option>
+            <option value="">Mumbai</option>
+          </select>
+
+
+
+          
+      
+          <p>By creating an account you agree to our .<a href="#">Terms & Privacy</a></p>
+          <button type="submit" class="registerbtn">Register</button>
+          
+        
+        </div>
+      </form>
+    
+</body>
+</html>
